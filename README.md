@@ -3,14 +3,14 @@ Proje Başlığı ve Kısa Açıklama
 
 Bu proje, bir metro simülasyonu oluşturarak, farklı algoritmalar kullanarak en kısa yolu ve en etkili rota planlamasını belirlemeyi amaçlamaktadır. BFS (Breadth-First Search) ve A* (A-Star) algoritmaları kullanılarak farklı senaryolar için rota planlaması yapılmaktadır.
 
-2. Kullanılan Teknolojiler ve Kütüphaneler
+Kullanılan Teknolojiler ve Kütüphaneler
 Proje Python dili kullanılarak geliştirilmiştir ve aşağıdaki kütüphaneler kullanılmıştır:
 heapq: Öncelikli kuyruk veri yapısı için kullanılmıştır.
 collections: Kuyruk veri yapısını yönetmek için deque kullanılmıştır.
 random: Rastgele senaryolar oluşturmak için kullanılmıştır.
 time: Algoritmaların performansını ölçmek için kullanılmıştır.
 
-3. Algoritmaların Çalışma Mantığı
+Algoritmaların Çalışma Mantığı
 BFS Algoritması
 BFS, bir graf veya ağaç yapısında en kısa yolu bulmak için kullanılan bir arama algoritmasıdır. FIFO (First In First Out) mantığıyla çalışır ve başlangıç noktasından itibaren tüm komşuları sırayla ziyaret ederek hedef noktaya ulaşmaya çalışır.
 
@@ -44,7 +44,7 @@ BFS algoritması, küçük ölçekli haritalarda hızlı ve etkili bir çözüm 
 A* algoritması, büyük haritalarda BFS'ye göre daha az düğüm genişleterek daha verimli çalışmıştır.
 Algoritmaların karşılaştırmalı performans analizi için time kütüphanesi kullanılmıştır.
 
-5. Projeyi Geliştirme Fikirleri
+Projeyi Geliştirme Fikirleri
 Daha Gerçekçi Bir Simülasyon: Farklı metro hatlarını ve aktarma istasyonlarını içeren daha karmaşık bir harita eklenebilir.
 GUI (Grafiksel Arayüz): Kullanıcıların metro haritasını görsel olarak takip edebileceği bir arayüz eklenebilir.
 Gerçek Zamanlı Trafik Verisi: Simülasyona anlık trafik yoğunluğu ve gecikmeler eklenerek daha gerçekçi bir model oluşturulabilir.
